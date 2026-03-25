@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>veterinaria-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ejercicio1</name>
+	<name>veterinaria-api</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -83,6 +83,12 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -90,5 +96,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
