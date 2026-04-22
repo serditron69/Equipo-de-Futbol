@@ -1,4 +1,6 @@
 package com.example.demo.DTO;
 
-public class TotalGolesEquipoDTO {
+public interface TotalGolesEquipoDTO {
+    String getNombreEquipo();
+    Integer getTotalGoles();
 }

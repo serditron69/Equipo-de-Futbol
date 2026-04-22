@@ -11,13 +11,11 @@ public class SwaggerConfiguration {
     public OpenAPI customOpenAPI(){
         return new OpenAPI()
                 .info(new Info()
-                        .title ("API VTERINARIA")
-                        .version ("1.0")
-                        .description ("API PARA LA VETERINARIA")
+                        .title("API Equipo de Fútbol")
+                        .version("1.0")
+                        .description("API para gestión de equipos de fútbol")
                         .contact(new Contact()
-                                .name ("DESARROLLADOR DE API")
+                                .name("DESARROLLADOR DE API")
                                 .email("prueba@prueba.com")));
-
     }
-
 }
